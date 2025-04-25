@@ -13,9 +13,8 @@ today = datetime.today().strftime('%Y-%m-%d')
 
 st.set_page_config(layout="wide")
 
-st.title("💊 Tacrolimus PK Synthetic Dataset Generator")
+st.title("Tacrolimus PK Synthetic Dataset Generator")
 st.markdown("Simulate covariates and concentration-time profiles for patients treated with Tacrolimus. Data generated are based on a one-compartment model.")
-
 
 
 
