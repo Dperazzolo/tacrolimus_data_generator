@@ -82,12 +82,6 @@ Each dataset includes:
 
 ---
 
-## 📜 License
-
-Distributed under the MIT License. See the [`LICENSE`](./LICENSE) file for more details.
-
----
-
 ## ⚠️ Disclaimer
 
 The simulated data are for research and development purposes only. **They must not be used for clinical or diagnostic purposes.**
