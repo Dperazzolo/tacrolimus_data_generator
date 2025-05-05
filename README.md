@@ -1,10 +1,10 @@
  # tacrolimus_data_generator (v1.0.0)
-
+The dataset generator and generated example dataset are related present in.... Please cite it. 
 A synthetic dataset generator for the pharmacokinetics (PK) of tacrolimus, built using population pharmacokinetic (popPK) modeling and delivered through a Streamlit web application. This tool is intended for researchers, pharmacometricians, and data scientists who need realistic PK simulations for analysis, model training, or exploration.
 
 ---
 
-## 🧠 Project Purpose
+## Project Purpose
 
 This project allows you to:
 
@@ -15,7 +15,7 @@ This project allows you to:
 
 ---
 
-## 📦 Repository Structure
+## Repository Structure
 
 ```text
 tacrolimus_data_generator/
@@ -34,7 +34,7 @@ tacrolimus_data_generator/
 
 ---
 
-## 🚀 How to Install and Run the App
+## How to Install and Run the App
 
 ### 1. Clone the repository
 ```bash
@@ -55,7 +55,7 @@ streamlit run data_generator_application/popPK_tacrolimus_generator_app.py
 
 ---
 
-## 🧪 How to Generate a Dataset
+## How to Generate a Dataset
 
 Once the app is running in your browser:
 
@@ -66,22 +66,6 @@ Once the app is running in your browser:
 5. Download the generated dataset as a `.csv` file
 
 ---
-
-## 📁 Example Datasets
-
-Pre-generated datasets are available in the [`example_generated_dataset`](./example_generated_dataset) folder:
-
-- `tacrolimus_datasets_48h.zip`: Simulated 48-hour profiles
-- `tacrolimus_datasets_120h.zip`: Simulated 120-hour profiles
-
-Each dataset includes:
-- Subject ID (`id`)
-- Time points (`time`)
-- Simulated concentrations (`concentration`)
-- Dosing details
-
----
-
 ## ⚠️ Disclaimer
 
 The simulated data are for research and development purposes only. **They must not be used for clinical or diagnostic purposes.**
@@ -89,5 +73,9 @@ The simulated data are for research and development purposes only. **They must n
 If you use this tool in your research or publication, please consider citing this project or linking to the repository.
 
 ---
+
+
+## Citation
+......(to complete)......
 
 
