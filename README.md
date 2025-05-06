@@ -1,17 +1,33 @@
- # tacrolimus_data_generator (v1.0.0)
-The dataset generator and generated example dataset are related present in.... Please cite it. 
-A synthetic dataset generator for the pharmacokinetics (PK) of tacrolimus, built using population pharmacokinetic (popPK) modeling and delivered through a Streamlit web application. This tool is intended for researchers, pharmacometricians, and data scientists who need realistic PK simulations for analysis, model training, or exploration.
+# tacrolimus_data_generator (v1.0.0)
 
+This repository contains the synthetic data generation code and resources associated with the study published on [ArXiv - Uncovering Population PK Covariates from VAE-Generated Latent Spaces](https://arxiv.org/abs/[arXiv-ID])
+---
+This repository provides 2 generated example datasets (./example_generated_dataset folder) and a synthetic dataset generator for the pharmacokinetics (PK) of tacrolimus, built using a one-compartment population pharmacokinetic (popPK) model with first-order absorption and elimination. The model incorporates between-subject variability and covariate effects on clearance and volume of distribution. This framework is delivered through a Streamlit web application and is intended for researchers, pharmacometricians, and data scientists who need realistic PK simulations for analysis, model training, or exploration.
+
+## Citation
+---
+```
+@misc{perazzolo2025uncoveringpopulationpkcovariates,
+      title={Uncovering Population PK Covariates from VAE-Generated Latent Spaces}, 
+      author={Diego Perazzolo and Chiara Castellani and Enrico Grisan},
+      year={2025},
+      eprint={2505.02514},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2505.02514}, 
+}
+```
 ---
 
-## Project Purpose
+## Repository Purpose
 
-This project allows you to:
+You are allowed to:
 
-- Generate realistic PK profiles of tacrolimus
+- Download .csv files of generated dataset of Tacrolimus dosing and related covariates for analysis
+- Generate realistic PK profiles of tacrolimus.
 - Simulate various sampling designs (e.g., 48h, 120h)
-- Provide structured input data for PK modeling or AI/ML pipelines
-- Enable the exploration of dosing and sampling scenarios
+- Provide structured input data for PK modeling and analysis
+- Enable the exploration of on compartment model dosing and sampling scenarios
 
 ---
 
@@ -66,16 +82,26 @@ Once the app is running in your browser:
 5. Download the generated dataset as a `.csv` file
 
 ---
+
+## Example Datasets
+
+Pre-generated datasets are available in the [`example_generated_dataset`](./example_generated_dataset) folder:
+
+- `tacrolimus_datasets_48h.zip`: Simulated 48-hour profiles
+- `tacrolimus_datasets_120h.zip`: Simulated 120-hour profiles
+
+Each ZIP archive contains:
+
+- A CSV file with the **simulated covariates** for each virtual subject
+- A CSV file with the corresponding **Tacrolimus concentration–time profiles**, generated using a one-compartment PK model with first-order absorption and elimination
+---
+
 ## ⚠️ Disclaimer
 
 The simulated data are for research and development purposes only. **They must not be used for clinical or diagnostic purposes.**
 
-If you use this tool in your research or publication, please consider citing this project or linking to the repository.
+If you use this tool in your research or publication, please consider citing the paper (cite also this project and link).
 
 ---
-
-
-## Citation
-......(to complete)......
 
 
