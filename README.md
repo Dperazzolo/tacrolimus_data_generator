@@ -1,6 +1,6 @@
 # tacrolimus_data_generator (v1.0.0)
 
-This repository contains the synthetic data generation code and resources associated with the study published on [ArXiv - Uncovering Population PK Covariates from VAE-Generated Latent Spaces](https://arxiv.org/abs/[arXiv-ID])
+This repository contains the synthetic data generation code and resources associated with the study published on [ArXiv - Uncovering Population PK Covariates from VAE-Generated Latent Spaces](http://arxiv.org/abs/2505.02514)
 ---
 This repository provides 2 generated example datasets (./example_generated_dataset folder) and a synthetic dataset generator for the pharmacokinetics (PK) of tacrolimus, built using a one-compartment population pharmacokinetic (popPK) model with first-order absorption and elimination. The model incorporates between-subject variability and covariate effects on clearance and volume of distribution. This framework is delivered through a Streamlit web application and is intended for researchers, pharmacometricians, and data scientists who need realistic PK simulations for analysis, model training, or exploration.
 
